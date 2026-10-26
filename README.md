@@ -57,5 +57,5 @@ I focus on customer-impacting risks, clear and reproducible defects, appropriate
 
 ## Contact
 
-- **LinkedIn:** Add your LinkedIn profile URL
-- **GitHub:** Add your GitHub profile URL
+- **LinkedIn:** [Link](https://www.linkedin.com/in/pantswati/)
+- **GitHub:** [Link](https://github.com/swatipant/qa-engineer-portfolio)
