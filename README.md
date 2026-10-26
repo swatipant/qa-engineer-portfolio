@@ -1,61 +1,36 @@
-# QA Engineer Portfolio
+# Sample Mobile Application Test Plan
 
-**Senior QA / Test Engineer | Test Strategy | Automation | Mobile & Cross-Platform Quality**
+**Scenario:** A fictional mobile application with sign-in and a user profile.
 
-Welcome! This portfolio contains sample projects that demonstrate my approach to software quality, test automation, risk-based validation, and clear defect reporting.
+## Scope
 
-> These are independent demonstration projects. They do not contain proprietary code, test data, or internal documents from past employers.
+Validate core sign-in behavior, session handling, network interruptions, and compatibility across supported devices.
 
-## About Me
+## Sample test scenarios
 
-I am a QA professional with experience testing web and mobile applications, consumer devices, SDK integrations, operating systems, and cross-platform products. My work has included test planning, functional and regression testing, integration validation, automation, defect triage, root-cause analysis, and cross-functional release readiness.
+| ID | Scenario | Steps / Test Data | Expected Result | Priority |
+|---|---|---|---|---|
+| MOB-001 | Valid sign-in | Enter valid test credentials | User signs in and reaches the home screen | P0 |
+| MOB-002 | Invalid password | Enter a valid username and incorrect password | Clear error appears; user remains signed out | P0 |
+| MOB-003 | Empty required fields | Submit with username and password empty | Required-field validation appears | P1 |
+| MOB-004 | Network interruption | Disable network during sign-in | App handles the failure gracefully and offers retry | P1 |
+| MOB-005 | Session after app restart | Sign in, close and reopen app | Behavior matches the documented session policy | P1 |
+| MOB-006 | Device compatibility | Repeat core flow on supported OS/device combinations | Core behavior remains consistent | P1 |
+| MOB-007 | Repeated submit | Tap sign-in multiple times quickly | No duplicate request or inconsistent UI state | P1 |
 
-## Technical Skills
+## Entry criteria
 
-- **Languages:** Python, Java, JavaScript
-- **Automation:** pytest, Selenium, Appium
-- **Testing:** Functional, regression, integration, end-to-end, compatibility, risk-based testing
-- **Debugging:** ADB, Xcode, Wireshark, Charles Proxy
-- **Delivery:** CI quality gates, defect triage, release readiness, root-cause analysis
+- Test build and environment are available.
+- Requirements and supported device/OS matrix are documented.
+- Test accounts and test data are ready.
 
-## Projects
+## Exit criteria
 
-### 1. Python + pytest API validation
-A small example suite that validates response data, status codes, and negative scenarios using pytest.
+- All P0 scenarios pass.
+- No unresolved release-blocking defects remain.
+- High-severity failures have documented disposition and approval.
+- Results, known issues, and residual risks are shared with stakeholders.
 
-**Folder:** `python-pytest/`
+## Notes
 
-### 2. Mobile application test plan
-Sample test scenarios for login, session handling, network interruption, and cross-device compatibility.
-
-**Folder:** `mobile-test-plan/`
-
-### 3. Risk-based test strategy
-A sample strategy showing how to prioritize testing based on customer impact, likelihood, and release risk.
-
-**Folder:** `test-strategy/`
-
-## How to Run the Python Tests
-
-1. Install Python 3.10 or newer.
-2. Open a terminal in the `python-pytest` folder.
-3. Install pytest:
-
-   ```bash
-   python -m pip install pytest
-   ```
-
-4. Run:
-
-   ```bash
-   python -m pytest -v
-   ```
-
-## My Quality Approach
-
-I focus on customer-impacting risks, clear and reproducible defects, appropriate test-layer coverage, automation that provides useful feedback, and close collaboration with engineering and product teams.
-
-## Contact
-
-- **LinkedIn:** [Link](https://www.linkedin.com/in/pantswati/)
-- **GitHub:** [Link](https://github.com/swatipant/qa-engineer-portfolio)
+This is a sample plan for a fictional app, not a record of testing a real product.
