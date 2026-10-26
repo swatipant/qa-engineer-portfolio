@@ -2,21 +2,22 @@
 
 **Senior QA / Test Engineer | Test Strategy | Automation | Mobile & Cross-Platform Quality**
 
-Welcome! This portfolio contains sample projects that demonstrate my approach to software quality, test automation, risk-based validation, and clear defect reporting.
+Welcome! This portfolio contains my sample projects that demonstrate my approach to software quality, test automation, risk-based validation, and clear defect reporting.
 
 > These are independent demonstration projects. They do not contain proprietary code, test data, or internal documents from past employers.
 
 ## About Me
 
-I am a QA professional with experience testing web and mobile applications, consumer devices, SDK integrations, operating systems, and cross-platform products. My work has included test planning, functional and regression testing, integration validation, automation, defect triage, root-cause analysis, and cross-functional release readiness.
+I am a QA leader with experience testing web and mobile(iOS and Android) applications, consumer devices, SDK integrations, operating systems, and cross-platform products. My work has included cross-functional collaboration & release readiness, test strategy, functional and regression testing, automation, integration validation, defect triage and root-cause analysis.
 
 ## Technical Skills
 
-- **Languages:** Python, Java, JavaScript
-- **Automation:** pytest, Selenium, Appium
+- **Languages:** Java, JavaScript, Python, HTML, CSS
+- **Automation:** Selenium, Appium, Cucumber, JUnit, Gherkin, BDD
 - **Testing:** Functional, regression, integration, end-to-end, compatibility, risk-based testing
 - **Debugging:** ADB, Xcode, Wireshark, Charles Proxy
-- **Delivery:** CI quality gates, defect triage, release readiness, root-cause analysis
+- **Delivery:** CI/CD quality gates, defect triage, release readiness, root-cause analysis
+- **AI Quality Engineering:** AI-assisted test generation, AI output validation, Prompt-based test scenario generation, Regression evaluation, Human-in-the-loop validation
 
 ## Projects
 
