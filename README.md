@@ -1,6 +1,6 @@
 # QA Engineer Portfolio
 
-**Senior QA / Test Engineer | Test Strategy | Automation | Mobile & Cross-Platform Quality**
+**Senior Quality Assurance / Test Engineer | AI-forward | Test Strategy | Automation | Mobile & Cross-Platform Quality**
 
 Welcome! This portfolio contains my sample projects that demonstrate my approach to software quality, test automation, risk-based validation, and clear defect reporting.
 
